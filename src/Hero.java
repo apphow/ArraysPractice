@@ -1,6 +1,6 @@
 public class Hero implements Character{
 
-    public String weapon = "lightsaber";
+    public String weapon = "The Force";
 
     public String getWeapon() {
         return weapon;

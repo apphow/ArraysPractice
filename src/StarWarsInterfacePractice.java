@@ -20,8 +20,10 @@ public interface StarWarsInterfacePractice {
         lukeSkyWalker.attack();
         darthVader.heal();
         lukeSkyWalker.heal();
-        System.out.println("Enemy weapon: " +darthVader.weapon);
-        System.out.println("Hero weapon: " + lukeSkyWalker.weapon);
-
+        System.out.println("Enemy weapon: " +darthVader.getWeapon());
+        System.out.println("Hero weapon: " + lukeSkyWalker.getWeapon());
+        Character spy = summonCharacter();
+        spy.attack();
+        spy.heal();
     }
 }
