@@ -2,7 +2,13 @@ public class Enemy implements Character{
 
     public String weapon = "lightsaber";
 
-    public Enemy(){}
+    public Enemy(){
+
+    }
+
+    public String getWeapon() {
+        return weapon;
+    }
 
     @Override
     public void attack() {
